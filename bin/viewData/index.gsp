@@ -13,17 +13,16 @@
 
         <g:if test="${persons != -1}">
 
+            <g:if test="${persons.length > 0}">
             <div class="text-center">
                 <h3>All Persons</h3>
             </div>
 
-            <g:if test="${persons.length > 0}">
             <div class="text-center" style="margin-top: 15px;">
                 <a class="btn btn-primary" role="button" href="${createLink(action: 'deleteAllPersons')}">
                     Delete All
                 </a>
             </div>
-            </g:if>
 
             <div class="table-responsive ">
                 <table class="table table-striped">
@@ -51,6 +50,13 @@
                     </tbody>
                 </table>
             </div>
+            </g:if>
+        </g:if>
+
+        <g:if test="${persons.length == 0}">
+            <div class="alert alert-info" style="margin: 0px; padding: 0px; padding-left: 5px;">
+                <strong>No persons to show</strong>
+            </div>
         </g:if>
 
         <g:if test="${flash.message}">
@@ -62,6 +68,12 @@
         <g:if test="${persons == -1}">
             <div class="alert alert-danger" style="margin: 0px; padding: 0px; padding-left: 5px;">
                 <strong>Can't get persons - something went wrong</strong>
+            </div>
+        </g:if>
+
+        <g:if test="${deleteResult == -1}">
+            <div class="alert alert-danger" style="margin: 0px; padding: 0px; padding-left: 5px;">
+                <strong>Can't delete persons - something went wrong</strong>
             </div>
         </g:if>
 

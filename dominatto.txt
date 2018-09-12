@@ -1,0 +1,14 @@
+ime appa: Dominatto
+
+web login:
+http://www.dominatto.hr//app/modules/task_manager.php
+
+username: toni.njiric@nmsolutions.hr
+pass: madbomb3r123
+
+
+na login i/ili splash screen mozes stavit logo
+highlightat drugacije one taskove koji su za danas
+korsitit ove boje prioriteta sto dobijes, mozes stavit malu kockicu obojanu a mozda mozes i cijeli taj "row" tj task obojat tom bojom
+ono da moras bit u krugu 15m za zapocet i zavrsit task
+error handling neka ti kova napravi isto ko za EZBooker-a

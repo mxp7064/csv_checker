@@ -1,0 +1,35 @@
+Server=localhost;Database=master;Trusted_Connection=True;
+
+sqlcmd -S localhost -U user -P user
+
+sqlcmd -S localhost -d test -U user -P user
+
+
+http://groovy-lang.org/groovy-dev-kit.html#_working_with_io
+https://stackoverflow.com/questions/24339990/how-to-convert-a-multipart-file-to-file/39572293
+http://guides.grails.org/grails-upload-file/guide/index.html
+
+
+PROCEDURE, AVOID DUPLICATES, ERROR LOGGING:
+https://www.tech-recipes.com/rx/53462/sql-server-error-logging-and-reporting-within-a-stored-procedure/
+https://stackoverflow.com/questions/33277548/return-error-message-from-stored-procedure
+https://stackoverflow.com/questions/2513174/avoid-duplicates-in-insert-into-select-query-in-sql-server
+
+
+
+
+
+https://www.mytecbits.com/microsoft/sql-server/return-error-message-stored-procedure
+
+
+
+https://docs.microsoft.com/en-us/sql/relational-databases/performance/view-the-sql-server-error-log-sql-server-management-studio?view=sql-server-2017
+
+
+https://docs.grails.org/latest/guide/services.html
+https://docs.grails.org/latest/guide/conf.html
+
+
+https://docs.microsoft.com/en-us/sql/relational-databases/performance/view-the-sql-server-error-log-sql-server-management-studio?view=sql-server-2017
+
+

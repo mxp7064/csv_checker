@@ -73,6 +73,7 @@ class ManagePersonsService {
             databaseService.close();
         }
         catch (SQLException e) {
+            e.printStackTrace();
             return -1;
         }
     }
